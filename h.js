@@ -6,7 +6,7 @@ console.log(iterableD)
 let dls = [];
 iterableD.forEach((modFile) => {
     console.log("Found: ",modFile.name)
-    if(modfile.name.includes('.jar')){
+    if(modFile.name.includes('.jar')){
         if (fs.existsSync(modFile.name)) {
             return;
         } else {
