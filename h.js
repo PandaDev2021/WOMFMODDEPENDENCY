@@ -15,7 +15,7 @@ iterableD.forEach((modFile) => {
         }
     }
 })
-dls = dls.map(x => `CD ${homedir}/AppData/Roaming/.minecraft && curl -# -o ${x.name} ${x.download_url}`)
+dls = dls.map(x => `CD ${homedir}/AppData/Roaming/.minecraft/mods/ && curl -# -o ${x.name} ${x.download_url}`)
 dls.forEach(cmd => {
     exec(cmd, (err, stdout, stderr) => {
         if (err) console.error(err);
