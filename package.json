@@ -1,0 +1,15 @@
+{
+  "name": "minecraftAutoUpdate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "h.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "P.Dev",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
