@@ -5,7 +5,7 @@ const iterableD = JSON.parse(data);
 console.log(iterableD)
 let dls = [];
 iterableD.forEach((modFile) => {
-    console.log(modFile.name,modFile.download_url)
+    console.log("Found: ",modFile.name)
     if(modfile.name.includes('.jar')){
         if (fs.existsSync(modFile.name)) {
             return;
